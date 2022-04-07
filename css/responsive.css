@@ -1,0 +1,174 @@
+@media (min-width:990px) {
+
+    /* menu carousal */
+    #carousal {
+        margin-top: 45px;
+    }
+}
+
+@media (max-width:991px) {
+
+    /* custom classes */
+    .text-content {
+        width: 100%;
+    }
+
+    /* navbar */
+    .navigation-wrap .navbar-brand img {
+        height: 3.8125rem;
+    }
+
+    .navigation-wrap {
+        text-align: center;
+        background-color: var(--white-color);
+    }
+
+    .navigation-wrap .nav-link {
+        line-height: 1.875rem;
+    }
+
+    /* banner design */
+    .top-banner {
+        padding: 9.375rem 0;
+    }
+
+    /* carousal design */
+    .testimonial-section .carousal-item .carousal-caption p {
+        padding: 0;
+    }
+
+    .button {
+        padding-bottom: 5px;
+    }
+
+    /* home and menu img */
+    #menu .first-img {
+        margin: auto;
+        width: 72%;
+    }
+
+    #menu .content {
+        text-align: center;
+    }
+
+    /* footer link */
+    .footer .footer-link,
+    .footer a i {
+        padding: 0 0.7rem;
+    }
+
+    .footer a i {
+        padding: 16px 0;
+        padding-right: 17px;
+    }
+
+    .footer {
+        padding-top: 86px;
+
+        background-color: #000;
+
+    }
+
+    .footer .footer-item {
+        margin-top: 1.2rem;
+    }
+
+
+}
+
+/* mobile version */
+@media (max-width:767px) {
+
+    /* custom css */
+    h1 {
+        font-size: 2.8rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+        line-height: 2.0626rem;
+    }
+
+    .button {
+        padding-bottom: 5px;
+    }
+
+    .top-banner {
+        padding: 10.876rem 0 9.375rem;
+    }
+
+    /* story section */
+    .story-section {
+        height: auto;
+        padding: 3rem 0;
+    }
+
+    /* carousal design */
+    .testimonial-section .carousal-item {
+        padding: 11rem 3.125rem;
+    }
+
+    #menu .main-btn {
+        margin-bottom: 1rem;
+    }
+
+    /* home and menu img */
+    #menu .first-img {
+        margin: auto;
+        width: 83%;
+        text-align: center;
+    }
+
+    .explore-food .card {
+        text-align: center;
+        align-items: center;
+    }
+
+    .home-img {
+        width: 73%;
+        margin: auto;
+    }
+
+    .explore-food .card span {
+        font-size: 17px;
+    }
+
+    /* review */
+    .review-img {
+        height: 500px;
+    }
+
+    /* footer link */
+    .footer .footer-link,
+    .footer a i {
+        padding: 0 0.7rem;
+    }
+
+    .footer a i {
+        padding: 16px 0;
+        padding-right: 17px;
+    }
+
+    .footer {
+        padding-top: 86px;
+        background-color: #000;
+
+    }
+
+    .footer .footer-item {
+        margin-top: 1.2rem;
+    }
+
+}
+
+@media (max-width:330px) {
+
+    /* carousal design */
+    .testimonial-section .carousal-item {
+        padding: 13rem 3.125rem;
+    }
+
+    .footer h1 {
+        font-size: 2.3rem;
+    }
+}

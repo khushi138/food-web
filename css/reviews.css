@@ -1,0 +1,27 @@
+/* top banner */
+.top-banner {
+  width: 100%;
+  background: url('../images/review-img/bg/bg-1.jpg') no-repeat center;
+  background-size: cover;
+  /* background-position: 0 10rem; */
+  padding: 16.875rem 0 9.375rem;
+  opacity: 0.8;
+  height: 90vh;
+}
+
+#home .container-fluid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 60px;
+}
+
+#home .container h1 {
+  text-align: center;
+}
+
+.review-img {
+  border-radius: 10px;
+  box-shadow: #000;
+  margin-left: 0;
+}
